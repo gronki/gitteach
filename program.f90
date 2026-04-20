@@ -4,6 +4,6 @@ program testprogram
     integer :: i
     read (*, '(a)') name
     do i = 1, 5
-    print *, "Hello, ", trim(name), "!"
+    print *, "Bonjour, ", trim(name), "!"
     end do
 end program
