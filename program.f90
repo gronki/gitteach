@@ -1,4 +1,6 @@
 program testprogram
     implicit none
-    print *, "Hello, Git!"
+    character(len=64) :: name
+    read (*, '(a)') name
+    print *, "Hello, ", trim(name), "!"
 end program
