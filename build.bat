@@ -1,0 +1,1 @@
+gfortran.exe program.f90 -o program
